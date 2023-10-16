@@ -16,6 +16,5 @@ def remove_key(data_dict, key):
     Returns the modified dictionary.
     """
     if ([key] in data_dict): 
-        del key 
-    else:
-        return key in data_dict
+        del key
+        return data_dict
