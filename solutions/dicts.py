@@ -15,6 +15,5 @@ def remove_key(data_dict, key):
     If the key is not found, the dictionary should remain unchanged.
     Returns the modified dictionary.
     """
-    if ([key] in data_dict): 
-        del key
-        return data_dict
+    del key
+    return data_dict
